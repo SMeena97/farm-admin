@@ -10,7 +10,7 @@ import {MyInterface} from "./my-interface";
 @Injectable()
 export class DemoService {
 
-  private postsURL ="https://jsonplaceholder.typicode.com/comments";
+  private postsURL ="https://customer11.herokuapp.com/customers";
 
   constructor(private http: Http ) {}
  getPosts(): Observable<MyInterface[]>{
